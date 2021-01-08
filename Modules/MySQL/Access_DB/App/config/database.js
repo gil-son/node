@@ -3,11 +3,11 @@ var mysql = require('mysql');
 
 var connMySQL = function(){
     console.log("Conexão com bd estabelecida!");
-    return mysql.createConnection({ 
+    return mysql.createConnection({
         host:'localhost',
         user:'root',
-        password:'',
-        database:'teste'
+        password:'38013051Q!1qqqqqqq',
+        database:'projeto_node'
     });
 
 }
