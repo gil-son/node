@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>Cadastre um usuário</h1>
+
+        <% if(validacao){ %>
+            <%for(var i in dados) { %>
+                    <p> <%=validacao.errors[i].msg%> </p>
+            <%}%>
+        <%}%>
+
+            <form method="post" action="/usuario/salvar">
+                Nome: <input type="text" name="nome" value="<%=dados.nome%>"><br/>
+                Usuario: <input type="text" name="usuario" value="<%=dados.usuario%>"><br/>
+                Email: <input type="text" name="email" value="<%=dados.email%>"><br/>
+                Senha: <input type="text" name="senha" value="<%=dados.password%>"><br/>
+                <input type="submit">
+            </form>
+    </body>
+</html>
