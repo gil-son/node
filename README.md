@@ -1,4 +1,4 @@
-# node
+# Node
 
 <div align="center"><img src="https://blog.4linux.com.br/wp-content/uploads/2019/12/node-js.png"/></div>
 
@@ -31,7 +31,7 @@ server.listen(port, hostname, () => {
 <br/>
 <hr/>
 
-## Source:
+## Source
 
 <ul>
   <li><a href="https://nodejs.org/en/about/"/>Node JS - ORG - About</li>
